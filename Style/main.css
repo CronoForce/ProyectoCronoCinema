@@ -40,7 +40,7 @@ footer p{
     margin-top:20px;
     margin-left: 25%;
     width: 600px;
-    height: 500px;
+    height: 50px;
     color:#bdc3c7;
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
@@ -174,24 +174,151 @@ nav ul li .link{
     100% {margin-left: -400%;}
 }
 
-.banner ul:hover{
-    animation-play-state: paused;
-    cursor: pointer;
-}
 body{
     background-color:#000;
 }
+
 h2{
-    margin: 30px 0 15px 12px;
+    margin: 40px 0 25px 29px;
     color:white;
     font-family: 'Roboto', sans-serif;
 }
 section{
     display: inline;
-
 }
 section li img{
-    margin: 0 9px 10px 9px;
+    margin: 0 15px 10px 28px;
+    float: left;
+    transition: all 500ms;
+    overflow: hidden;
+}
+body li{
+    overflow: hidden;
+}
+section li:hover img{
+    transform: scale(1.1);
+    transition: all 300ms;
+    opacity: 0.2;
+}
+.img_play{
+    position: absolute;
+    left: 90px;
+    top: 140%;
+    float: left;
+    opacity: 0;
+    transition: all 900ms;
+}
+.img_play_1{
+    position: absolute;
+    left: 370px;
+    top: 140%;
+    float: left;
+    opacity: 0;
+    transition: all 900ms;
+}
+.img_play_2{
+    position: absolute;
+    left: 625px;
+    top: 140%;
+    float: left;
+    opacity: 0;
+    transition: all 900ms;
+}
+.img_play_3{
+    position: absolute;
+    left: 890px;
+    top: 140%;
+    float: left;
+    opacity: 0;
+    transition: all 900ms;
+}
+.img_play_4{
+    position: absolute;
+    left: 1160px;
+    top: 140%;
+    float: left;
+    opacity: 0;
+    transition: all 900ms;
+}
+.img_play_5{
+    position: absolute;
+    left: 90px;
+    top: 200%;
+    float: left;
+    opacity: 0;
+    transition: all 900ms;
+}
+.img_play_6{
+    position: absolute;
+    left: 370px;
+    top: 200%;
+    float: left;
+    opacity: 0;
+    transition: all 900ms;
+}
+.img_play_7{
+    position: absolute;
+    left: 625px;
+    top: 200%;
+    float: left;
+    opacity: 0;
+    transition: all 900ms;
+}
+.img_play_8{
+    position: absolute;
+    left: 890px;
+    top: 200%;
+    float: left;
+    opacity: 0;
+    transition: all 900ms;
+}
+.img_play_9{
+    position: absolute;
+    left: 1160px;
+    top: 200%;
+    float: left;
+    opacity: 0;
+    transition: all 900ms;
+}
+section li:hover .img_play{
+    opacity: 1;
+    transition: all 900ms;
+}
+section li:hover .img_play_1{
+    opacity: 1;
+    transition: all 900ms;
+}
+section li:hover .img_play_2{
+    opacity: 1;
+    transition: all 900ms;
+}
+section li:hover .img_play_3{
+    opacity: 1;
+    transition: all 900ms;
+}
+section li:hover .img_play_4{
+    opacity: 1;
+    transition: all 900ms;
+}
+section li:hover .img_play_5{
+    opacity: 1;
+    transition: all 900ms;
+}
+section li:hover .img_play_6{
+    opacity: 1;
+    transition: all 900ms;
+}
+section li:hover .img_play_7{
+    opacity: 1;
+    transition: all 900ms;
+}
+section li:hover .img_play_8{
+    opacity: 1;
+    transition: all 900ms;
+}
+section li:hover .img_play_9{
+    opacity: 1;
+    transition: all 900ms;
 }
 
 
