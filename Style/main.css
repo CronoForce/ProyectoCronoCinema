@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Jua');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 *{
     margin: 0;
     padding: 0;
@@ -123,7 +122,6 @@ ul.sub li a:hover{
     color: #000;
     background: #eeeeee;
 }
-p
 ul.primaria li:hover ul{
     display: block;
     background: #fff;
