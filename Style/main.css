@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Jua');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 *{
     margin: 0;
     padding: 0;
@@ -122,6 +123,7 @@ ul.sub li a:hover{
     color: #000;
     background: #eeeeee;
 }
+p
 ul.primaria li:hover ul{
     display: block;
     background: #fff;
@@ -320,6 +322,63 @@ section li:hover .img_play_8{
 section li:hover .img_play_9{
     opacity: 1;
     transition: all 900ms;
+}
+.portada{
+    float: left;
+    width: 100%;
+    opacity: 0.2;
+}
+.descripcion{
+    position: absolute;
+    top:48%;
+    left: 25%;
+    float: left;
+    font-size: 18px;
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+    width: 800px;
+    height: 480px;
+}
+.caratula{
+    position: absolute;
+    top:32%;
+    left: 6%;
+    float: left;
+}
+.detalles{
+    position: absolute;
+    font-size: 20px;
+    top:40%;
+    left:25%;
+    float: left;
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+}
+.d_trailer{
+    position: absolute;
+    top: 84%;
+    left:25%;
+    float: left;
+    font-size: 30px;
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+}
+.trailer{
+    position: absolute;
+    top: 73%;
+    left: 27%;
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+h1{
+    position: absolute;
+    font-size: 50px;
+    top:29%;
+    left: 25%;
+    float: left;
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 
