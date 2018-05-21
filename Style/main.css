@@ -27,8 +27,8 @@ tiw{
 insta{
     float: left;
     position: absolute;
-    top: 31px;
-    left: 1270px;
+    top: 35px;
+    left: 1288px;
     right: 0;
     bottom: 0;
 }
@@ -141,7 +141,7 @@ nav ul li .link{
 .active2{
     margin: 0;
     padding: 0;
-    border-bottom: 2px solid white;
+    border-bottom: 3px solid white;
     box-sizing: border-box;
 }
 .banner{
