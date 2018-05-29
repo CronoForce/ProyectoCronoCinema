@@ -78,8 +78,18 @@
                 <div class="botones">
                         <a href="#Trailer"><img class="trailer" src="../../../Assets/images/icon/trailer.png" width="70px"></a>
                         <a href="#Pelicula"><img class="play" src="../../../Assets/images/icon/paly.png" width="70px"></a>
-                        <a href=""><img class="share" src="../../../Assets/images/icon/share.png" width="70px"></a>
+                        <a href="javascript:getlink();"><img class="share" src="../../../Assets/images/icon/share.png" width="70px"></a>
                     </div>
+                    <script>//<![CDATA[
+                        function getlink() {
+                        var aux = document.createElement("input");
+                        aux.setAttribute("value",window.location.href);
+                        document.body.appendChild(aux);
+                        aux.select();
+                        document.execCommand("copy");
+                        document.body.removeChild(aux);
+                        }
+                        //]]></script>
                 </header>
             </div>
         </article>
